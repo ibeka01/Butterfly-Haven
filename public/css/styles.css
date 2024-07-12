@@ -1,0 +1,614 @@
+/*---------------------- Global ----------------------*/
+* {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #000080;
+    color: #fff;
+    padding: 8px 0px;
+    width: 100%;
+    max-width: 144px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.read_more:hover {
+    background: #ffc107;
+    color: #000080;
+    transition: ease-in all 0.5s;
+}
+
+
+/*---------------------- Navbar ----------------------*/
+.navbar-logo {
+    height: 100%;
+    max-height: 80px;
+
+}
+
+/*---------------------- Home Section ----------------------*/
+#home {
+    .carousel-caption {
+        margin-bottom: 300px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 35px
+    }
+
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 89, 255, 0.5);
+    }
+
+    .read_more {
+        font-size: 17px;
+        background-color: #ffc107;
+        color: #fff;
+        padding: 10px 0px;
+        width: 100%;
+        max-width: 144px;
+        text-align: center;
+        display: inline-block;
+        transition: ease-in all 0.5s;
+        font-weight: 500;
+        border-radius: 30px;
+    }
+
+    .read_more:hover {
+        background: #000080;
+        color: #fff;
+        transition: ease-in all 0.5s;
+    }
+}
+
+/*---------------------- Room Section ----------------------*/
+#room {
+    .read_more {
+        font-size: 17px;
+        background-color: #000080;
+        color: #fff;
+        padding: 8px 0px;
+        width: 100%;
+        max-width: 144px;
+        text-align: center;
+        display: inline-block;
+        transition: ease-in all 0.5s;
+        font-weight: 500;
+        border-radius: 30px;
+    }
+
+    .read_more:hover {
+        background: #0707f5;
+        color: #fff;
+        transition: ease-in all 0.5s;
+    }
+}
+
+/*---------------------- Welcome Section ----------------------*/
+#welcome {
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+
+    i {
+        font-size: 50px;
+        margin-bottom: 15px;
+        color: #000080;
+    }
+
+    h4 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 3px !important;
+        margin: 15px auto;
+        position: inherit;
+    }
+
+    .section {
+        margin-top: 20px;
+    }
+
+    @media (max-width: 991.98px) {
+        .welcome-mobile {
+            margin-top: 30px;
+        }
+    }
+
+}
+
+/*---------------------- Our_Room Section ----------------------*/
+#detailRoom{
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 5px !important;
+        margin: 15px auto;
+    }
+
+    label {
+        display: inline-block;
+        width: 200px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .property-info,
+    .more-info,
+    .amenities,
+    .check-in-out,
+    .rates,
+    .terms {
+        border-bottom: 1px solid #000;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .amenities .icon {
+        display: inline-block;
+        text-align: center;
+        width: 80px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+}
+.our_room {
+    background-color: #f4f5f7;
+    padding: 30px 0 30px 0;
+}
+
+.our_room .room {
+    background-color: #fff;
+    margin-bottom: 30px;
+    transition: ease-in all 0.5s;
+}
+
+.our_room .room .room_img {
+    overflow: hidden;
+}
+
+.our_room .room .room_img figure {
+    margin: 0;
+}
+
+.our_room .room .room_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.our_room .room .room_img figure img:hover {
+    transform: scale(1.2);
+}
+
+.our_room .room .bed_room {
+    padding: 33px 30px;
+}
+
+.our_room .room .bed_room h3 {
+    color: #121212;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 500;
+    transition: ease-in all 0.5s;
+    margin: auto;
+}
+
+#serv_hover:hover.room {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(255, 9, 9, 0.15);
+    transition: ease-in all 0.5s;
+}
+
+
+/*---------------------- Gallery Section ----------------------*/
+#galeri {
+    .gallery {
+        padding-top: 60px;
+    }
+
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 5px !important;
+        margin: 15px auto;
+    }
+
+    .gallery .titlepage {
+        text-align: center;
+    }
+
+    .gallery .gallery_img {
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .gallery .gallery_img figure {
+        margin: 0;
+    }
+
+    .gallery .gallery_img figure img {
+        width: 100%;
+        transition: all .5s;
+    }
+
+    .gallery .gallery_img figure img:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+/*---------------------- Room Section ----------------------*/
+#room {
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 5px !important;
+        margin: 15px auto;
+    }
+}
+
+/* Center overlay content */
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Box with border around content */
+.border-box {
+    border: 2px solid #fff;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+
+/*---------------------- FAX Section ----------------------*/
+#fax {
+    .custom-container {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .accordion-centered {
+        /* max-width: 600px; */
+        margin: auto;
+    }
+
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 5px !important;
+        margin: 15px auto;
+    }
+}
+
+/*---------------------- Service Section ----------------------*/
+#service {
+    i {
+        font-size: 50px;
+        margin-bottom: 15px;
+        color: #000080;
+    }
+
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 5px !important;
+        margin: 15px auto;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+}
+
+/*---------------------- Review Section ----------------------*/
+#review {
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 5px !important;
+        margin: 15px auto;
+    }
+}
+
+.review {
+    background: white;
+    padding: 50px 0;
+}
+
+.review .heading {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.review .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+}
+
+.review .card {
+    border-radius: 10px;
+    padding: 20px 30px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease-in-out;
+}
+
+.review .card img {
+    height: 90px;
+    width: 90px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: 20px;
+}
+
+.review .card p {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.review .card h2 {
+    margin-bottom: 4px;
+    color: #E2BF08;
+}
+
+.review .card h4 {
+    color: #FFD701;
+    font-size: 16px;
+}
+
+.review .card i {
+    font-size: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    color: var(--orange);
+}
+
+.review .card:hover {
+    transform: scale(1.1);
+    background: linear-gradient(35deg, #000080 10%, #6b88c7 100%);
+    box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.5);
+}
+
+.review .card:hover #quote {
+    color: white;
+}
+
+.review .card:hover p {
+    color: #ffffff;
+}
+
+/*---------------------- Contact Section ----------------------*/
+#contact {
+    .contact {
+        background: #fff;
+        margin-top: 90px;
+    }
+
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 200px;
+        height: 5px !important;
+        margin: 15px auto;
+    }
+
+    .main_form .contactus {
+        border: #fff solid 1px;
+        padding: 0 15px;
+        margin-bottom: 25px;
+        width: 100%;
+        height: 58px;
+        background: #fff;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        box-shadow: 2px 0px 6px rgba(255, 9, 9, 0.20);
+    }
+
+    .main_form .textarea {
+        border: #fff solid 1px;
+        margin-bottom: 25px;
+        width: 100%;
+        background: #fff;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 12px 15px 0 15px;
+        box-shadow: 2px 0px 6px rgba(255, 9, 9, 0.20);
+        height: 150px;
+    }
+
+    .main_form .send_btn {
+        font-size: 22px;
+        transition: ease-in all 0.5s;
+        background-color: #000080;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 10px 0px;
+        max-width: 193px;
+        width: 100%;
+        display: block;
+        margin-top: 10px !important;
+        font-weight: 500;
+        border-radius: 50px;
+    }
+
+    .main_form .send_btn:hover {
+        background-color: #ffc107;
+        transition: ease-in all 0.5s;
+        color: #000080;
+    }
+
+    #request *::placeholder {
+        color: #000000;
+        opacity: 1;
+    }
+
+    .map figure {
+        margin: 0;
+    }
+
+    .map figure img {
+        width: 100%;
+    }
+}
+
+/* Floating ticket Button */
+.btn-floating {
+    right: 25px;
+    /* bottom: 25px; */
+    /* overflow: hidden; */
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 9999;
+    color: #fff;
+    transition: .2s;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: floatUpDown 3s infinite alternate;
+}
+
+.btn-floating:hover {
+    width: auto;
+    padding: 0 20px;
+    /* cursor: pointer; */
+}
+
+.btn-floating span {
+    font-size: 16px;
+    margin-left: 5px;
+    transition: 2s;
+    line-height: 0px;
+    display: none;
+}
+
+.btn-floating:hover span {
+    display: inline-block;
+}
+
+.btn-floating:hover img {
+    margin-bottom: -3px;
+}
+
+.btn-floating.ticket {
+    bottom: 25px;
+    background-color: #000080;
+    border: 2px solid #fff;
+}
+
+.btn-floating.ticket:hover {
+    background-color: #030a47;
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+        /* Jarak naik */
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Custom styles for the ticket form */
+#ticket {
+    .card-header {
+        background: #ffc107;
+    }
+
+    .bg-warning {
+        background-color: #ffc107 !important;
+    }
+
+    h1 {
+        color: #000080;
+    }
+
+    hr {
+        background: #000080;
+        width: 320px;
+        height: 5px !important;
+    }
+
+    .card-header h3 {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .card-body .form-label {
+        font-weight: bold;
+    }
+
+    #spinner {
+        margin-bottom: 10px;
+    }
+
+    .btn-primary {
+        text-transform: uppercase;
+    }
+}
